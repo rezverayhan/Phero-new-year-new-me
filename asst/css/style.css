@@ -14,12 +14,15 @@ h1 {
   font-size: 65px;
   color: #000000;
 }
-h2,
+h2 {
+  font-size: 40px;
+  color: #000000;
+}
 h3,
 h4,
 h5,
 h6 {
-  font-size: 40px;
+  font-size: 25px;
   color: #000000;
 }
 p {
@@ -78,4 +81,19 @@ header {
   gap: 10px;
 }
 .failures-right ul li img {
+}
+
+/* Plan Section Design Start */
+.section-plan {
+  padding: 80px 300px;
+  text-align: center;
+}
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.plan {
+  padding: 50px;
 }
