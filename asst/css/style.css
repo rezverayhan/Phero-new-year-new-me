@@ -25,7 +25,57 @@ h6 {
 p {
   font-size: 16px;
   color: #444343;
+  line-height: 1.7;
 }
 .accent {
   color: #f15b22;
+}
+/* Gap Classes  */
+.gap {
+  margin: 20px 0;
+}
+/* Header Style */
+header {
+  height: 800px;
+  background-image: url("../img/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 300px;
+}
+.header-hero {
+  max-width: 525px;
+  text-align: right;
+}
+.btn-contact {
+  padding: 15px 30px;
+  background: #f15b22;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Section-failures design start */
+.section-failures {
+  padding: 150px 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failures-left {
+}
+.failures-right {
+  padding: 0 150px;
+}
+.failures-right ul li {
+  list-style: none;
+  margin: 20px 0px;
+  display: flex;
+  gap: 10px;
+}
+.failures-right ul li img {
 }
