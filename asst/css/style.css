@@ -110,7 +110,7 @@ header {
   background-image: linear-gradient(
       90deg,
       rgba(241, 91, 34, 1) 0%,
-      rgba(241, 91, 34, 0.6867121848739496) 25%,
+      rgba(241, 91, 34, 0.6867121848739496) 30%,
       rgba(255, 255, 255, 0) 63%
     ),
     url("../img/banner-bottom.jpg");
